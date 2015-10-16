@@ -1,0 +1,152 @@
+/*Reset*/
+
+body {
+	padding:0;
+	margin:0;
+	background:#ededed;
+}
+.clear {
+	clear:both;
+	height:1px;
+	overflow:hidden;
+	margin-top:-1px;
+	font-size:1px;
+}
+
+body, input, select, textarea, table, td, div {
+	font-family:arial,verdana,"Lucida Grande",sans-serif;
+	font-size:11px;
+}
+form, h1, h2, h3, h4, h5, h6, ul, html {
+	margin:0;
+	padding:0;
+}
+
+.contentwrapper {
+	width:990px; 
+	margin:0 auto;
+}
+
+#header .topbar {
+	background-color:#000;
+	height:30px;
+	width:100%;
+}
+#header .headerbar {
+	background-color:#000;
+	height:50px;
+	width:100%;
+	margin-bottom: 1px;
+}
+#footer {
+	background-color:#000;
+	color:#fff;
+	height:200px;
+	width:100%;
+	padding-top:10px
+}
+
+#header .topbar .networklogo {
+    background-image: url("https://store.playstation.com/pc/css/compiled/../../img/furniture.f115e3c6.png");
+    background-position: right -164px;
+    background-repeat: no-repeat;
+    height: 30px;
+    margin-top: 3px;
+}
+
+#header .headerbar .sitelogo {
+	background-image: url("https://store.playstation.com/pc/css/compiled/../../img/furniture.f115e3c6.png");
+    background-position: left -194px;
+    background-repeat: no-repeat;
+    height: 50px;
+    margin: 1px 0 0px;
+    max-width: 228px;
+}
+
+.contentarea, .searchresults {
+	padding:20px;
+}
+
+.searchbar input {
+	border-radius: 10px;
+	height: 24px;
+	overflow: hidden;
+	width: 315px;
+	margin-right:10px;
+	margin-right:10px;
+	font-size:14px;
+	padding-left:10px;
+}
+.searchbar #message {
+	font-size:14px;
+	margin-right:200px;
+	float:right;
+	padding:10px 0 30px 0;
+}
+
+.searchstatusbar {
+	margin:0 20px 0 0;
+	padding:15px 0;
+	font-size:14px;
+	border-top:1px solid #000;
+}
+.searchstatusbar #pagination {
+	float:right;
+	display:none;
+}
+.searchstatusbar #pagination .currentpage {
+	float:left;
+}
+.searchstatusbar #pagination .totalpage {
+	float:left;
+}
+.searchstatusbar  #pagination #leftpage, 
+.searchstatusbar  #pagination #rightpage {
+	position:relative;top:7px;
+}
+
+.searchbar button {
+	height: 30px;
+}
+
+.streamlist h2 {
+	padding:0 0 5px 0;
+	margin:0;
+	font-size:20px;
+}
+.streamlist p {
+	padding:0;
+	margin:0;
+	font-size:13px;
+	line-height:17px;
+}
+.streamlist {
+	list-style-type:none;
+}
+.streamlist li {
+	float:left;
+	width:100%;
+	margin:0 0 20px 0;
+}	
+.streamlist .content {
+	float:left;
+	border-bottom:1px solid gray;
+	min-height:100px;
+	min-width:500px;
+}		
+.streamlist li img {
+	float:left;
+	margin-right:20px;
+}
+.streamlist li a {
+	color:#000;
+	text-decoration:none;
+}
+
+/*Pagination*/
+.streamlist {
+	display:none;
+}
+#set0 {
+	display:block;
+}

@@ -1,1 +1,76 @@
-test
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PlayStation®Store</title>
+
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		
+		<link rel="stylesheet" href="css/twitch.css" type="text/css" />
+		
+		
+		
+	</head>
+	<body>
+		<!-- Rule 5: All UI elements are ie. search status, pagination -->
+		<!-- Rule 6: Added more UI elements -->
+		<header>
+			<div id="header">
+				<div class="topbar">
+					<div class="contentwrapper">
+						<div class="networklogo"></div>
+					</div>
+				</div>
+				<div class="headerbar">
+					<div class="contentwrapper">
+						<div class="sitelogo"></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="clear">&nbsp;</div>
+		<section>
+			<div id="section">
+				<div class="contentwrapper">
+					<div class="contentarea">
+						<div class="searchbar">
+							<input type="text" id="q" value= "" placeholder="Search..." />
+							<button id="search">Search</button>
+							<div id="message"></div>
+						</div>
+						<div class="clear">&nbsp;</div>
+						<div class="searchstatusbar">
+							<span id="totalresults"></span>
+							<span id="pagination"> 
+								<span id="leftpage"> 
+									<img src="images/arrow-left.png" alt="Previous Page" />
+								</span>
+								<span id="currentpage"></span> /
+								<span id="totalpage"></span>
+								<span id="rightpage"> 
+									<img src="images/arrow-right.png" alt="Next Page" />
+								</span>
+							</span>
+						</div>
+						<div class="clear">&nbsp;</div>
+						<div class="searchresults">
+							<div id="list"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="clear">&nbsp;</div>
+		<footer>
+			<div id="footer">
+				<div class="contentwrapper">
+					&copy; PlayStation Network
+				</div>
+			</div>
+		</footer>
+		<script src="js/twitch.js"></script>
+	</body>
+</html>
