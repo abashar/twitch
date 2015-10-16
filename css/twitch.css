@@ -103,6 +103,7 @@ form, h1, h2, h3, h4, h5, h6, ul, html {
 .searchstatusbar  #pagination #leftpage, 
 .searchstatusbar  #pagination #rightpage {
 	position:relative;top:7px;
+	cursor:pointer;
 }
 
 .searchbar button {
